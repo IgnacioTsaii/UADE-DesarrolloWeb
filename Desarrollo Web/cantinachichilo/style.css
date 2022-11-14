@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    font-family: sans-serif;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 120px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 4px;
+    font-size: large;
+}
+nav a:hover{
+    color: red;
+}
+.caja{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url(/cantinachichilo/img/camaron-plato.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.texto1{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 50%;
+}

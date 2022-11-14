@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.banner {
+    background-image: url(../img/chichilo.jpg);
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 12rem;
+}
+
+header h1 {
+    font-size: 9rem;
+    text-shadow: 0 0 30px #111;
+    margin: 0;
+}
+
+header p {
+    font-size: 3rem;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.datos {
+    list-style: none;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin: auto auto 3rem;
+    width: 75%;
+    font-size: 1.75rem;
+    border-radius: 20px;
+}
+
+.datos li {
+    width: calc(100% / 3);
+}
+
+.datos i {
+    color: #47b37c;
+}
+
+nav {
+    width: 75%;
+    margin: 3rem auto 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #47b37c;
+    font-size: 1.5rem;
+    text-decoration: none;
+    /*background-color: #fff;*/
+    padding: 0.3rem 0.7rem
+}
+
+nav a:hover {
+    color: #fff;
+    /*background-color: #47b37c;*/
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .contenedor {
+            border: 3px solid black;
+        }
+        
+        @media screen and (min-width: 600px) {
+            .contenedor {
+                max-width: 900px;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .contenedor div {
+                width: 50%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="contenedor">
+
+        <div>
+            <h1>Columna</h1>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At enim reprehenderit impedit adipisci tempore ratione in, ducimus necessitatibus voluptatem eos soluta aut neque laborum ad voluptatum excepturi doloremque fugit facere.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempore.</p>
+        </div>
+        <div>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
